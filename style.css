@@ -1,9 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto');
-@font-face {
-    font-family: "RobotoThin";
-    src: url("fonts/Roboto-Thin.ttf");
-}
-
+@import url('https://fonts.googleapis.com/css?family=Roboto:100');
 
 @media only screen and (min-width : 320px) {
     body {
@@ -41,12 +36,22 @@ body {
 }
 
 p {
-    font-family: "RobotoThin" sans-serif;
+    font-family: "Roboto" sans-serif;
     font-weight: 100;
 }
 
 main {
     margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #EF5350;
 }
 
 .shadow {
@@ -66,7 +71,7 @@ main {
 
 h1, h2, h5{
     color: white;
-    font-family: "RobotoThin" sans-serif;
+    font-family: "Roboto" sans-serif;
     font-weight: 100;
     display: block;
     width: 100%;
