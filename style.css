@@ -54,10 +54,6 @@ a:hover {
     color: #EF5350;
 }
 
-.shadow {
-    box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.2), 0 8px 20px 0 rgba(0, 0, 0, 0.3);
-}
-
 .container {
     margin: 0 auto;
     max-width: 900px;
@@ -218,4 +214,16 @@ input, select, textarea{
 
 .row {
     padding-bottom: 5%;
+}
+
+.shadow-lr {
+    box-shadow: -10px 0px 5px 0px rgba(0,0,0,.3), 10px 0px 5px 0px rgba(0,0,0,.3);
+}
+
+.shadow-tlr {
+    box-shadow: -10px 0px 5px 0px rgba(0,0,0,.3), 10px 0px 5px 0px rgba(0,0,0,.3), 10px -10px 5px 0px rgba(0,0,0,.3);
+}
+
+.shadow-blr {
+    box-shadow: -10px 0px 5px 0px rgba(0,0,0,.3), 10px 0px 5px 0px rgba(0,0,0,.3), 10px 10px 5px 0px rgba(0,0,0,.3);
 }
