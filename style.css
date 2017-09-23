@@ -4,6 +4,37 @@
     src: url("fonts/Roboto-Thin.ttf");
 }
 
+
+@media only screen and (min-width : 320px) {
+    body {
+        text-align: center;
+    }
+    .heading p {
+        text-align: center;
+    }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+    body {
+        text-align: center;
+    }
+    .heading p {
+        text-align: center;
+    }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+    body {
+        text-align: center;
+    }
+    .heading p {
+        text-align: right;
+    }
+}
+
+
 body {
     color: white;
     background-color: #333333;
@@ -61,10 +92,6 @@ h2 {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-}
-
-.heading p{
-    text-align: right;
 }
 
 .button {
